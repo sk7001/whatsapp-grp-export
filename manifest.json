@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Extract Div Content",
+    "version": "1.0",
+    "description": "Extracts and displays content from a specific div.",
+    "permissions": ["activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"]
+  }
+  
